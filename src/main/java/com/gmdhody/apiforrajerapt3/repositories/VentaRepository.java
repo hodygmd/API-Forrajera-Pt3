@@ -1,6 +1,6 @@
-package com.example.apiforrajera.repositories;
+package com.gmdhody.apiforrajerapt3.repositories;
 
-import com.example.apiforrajera.entities.Venta;
+import com.gmdhody.apiforrajerapt3.entities.Venta;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;

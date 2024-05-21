@@ -1,15 +1,14 @@
-package com.example.apiforrajera.services;
+package com.gmdhody.apiforrajerapt3.services;
 
-import com.example.apiforrajera.dto.DcvDto;
-import com.example.apiforrajera.entities.DetalleVenta;
-import com.example.apiforrajera.entities.Producto;
-import com.example.apiforrajera.entities.Venta;
-import com.example.apiforrajera.entities.Venta2;
-import com.example.apiforrajera.repositories.VentaRepository2;
+
+import com.gmdhody.apiforrajerapt3.dto.DcvDto;
+import com.gmdhody.apiforrajerapt3.entities.DetalleVenta;
+import com.gmdhody.apiforrajerapt3.entities.Producto;
+import com.gmdhody.apiforrajerapt3.entities.Venta;
+import com.gmdhody.apiforrajerapt3.repositories.DetalleVentaRepository;
+import com.gmdhody.apiforrajerapt3.repositories.ProductoRepository;
+import com.gmdhody.apiforrajerapt3.repositories.VentaRepository;
 import org.hibernate.Hibernate;
-import com.example.apiforrajera.repositories.DetalleVentaRepository;
-import com.example.apiforrajera.repositories.ProductoRepository;
-import com.example.apiforrajera.repositories.VentaRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -19,8 +18,6 @@ public class DetalleVentaService {
     private DetalleVentaRepository repository;
     @Autowired
     private VentaRepository ventaRepository;
-    @Autowired
-    private VentaRepository2 ventaRepository2;
     @Autowired
     private ProductoRepository productoRepository;
     private Float t;

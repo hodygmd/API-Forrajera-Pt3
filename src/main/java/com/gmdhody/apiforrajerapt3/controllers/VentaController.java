@@ -1,8 +1,9 @@
-package com.example.apiforrajera.controllers;
+package com.gmdhody.apiforrajerapt3.controllers;
 
-import com.example.apiforrajera.dto.CvDto;
-import com.example.apiforrajera.entities.Venta;
-import com.example.apiforrajera.services.VentaService;
+
+import com.gmdhody.apiforrajerapt3.dto.CvDto;
+import com.gmdhody.apiforrajerapt3.entities.Venta;
+import com.gmdhody.apiforrajerapt3.services.VentaService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

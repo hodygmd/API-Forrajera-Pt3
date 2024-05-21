@@ -7,17 +7,14 @@ import lombok.Setter;
 @Getter
 @Setter
 @Entity
-@Table(name = "categoria")
-public class Categoria {
+@Table(name = "unidad_medida")
+public class UnidadMedida {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")
     private Integer id;
-    @Column(name = "nombre")
-    private String nombre;
-    @ManyToOne
-    @JoinColumn(name = "id_funcion")
-    private Funcion id_funcion;
+    @Column(name = "unidad")
+    private String unidad;
     @Column(name = "status")
     private Byte status;
 }
